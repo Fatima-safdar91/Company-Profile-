@@ -1,0 +1,87 @@
+.navbar {
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  overflow: hidden;
+  padding: 10px;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 2px solid #04AA6D;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px; 
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  /* padding: 0 35px; */
+}
+
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  display: inline-block; 
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; 
+  text-transform: uppercase;
+  
+
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(88, 86, 86);
+  /* box-sizing: inherit; */
+  color: white;
+  height:45px;
+  padding: 15px;
+}
+.text{
+  background-color: #333;
+  color: #04AA6D;
+  /* font-family: "Lobster script=latin rev=1"; */
+  font-family: 'Lobster', cursive;
+  font-size: 1.95rem;
+    font-weight: 500;
+    line-height: 0.7rem;
+    letter-spacing: 0.0125em;
+    padding: 20px;
+    /* font-family:  */
+  
+}
+.titles{
+  display: flex;
+  justify-content:space-around;
+  flex-grow: 1!important;
+}
+/* .topnav a:hover {
+  border-bottom: 2px solid #f2f2f2; 
+} */
+
+.topnav a.active {
+  background-color:#04AA6D ;
+  color: white;
+  height:45px;
+  padding: 15px;
+  border-bottom: 2px solid #f2f2f2;
+}
