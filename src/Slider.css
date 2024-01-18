@@ -30,7 +30,7 @@
   filter: brightness(40%); /* Adjust the percentage as needed */
 }
 .image {
-  width: 1240px;
+  width: 1196px;
   height: 640px;
   margin: 0;
   transform-style: preserve-3d;
@@ -154,7 +154,7 @@
 }
 .image-overlay {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

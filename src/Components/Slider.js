@@ -37,7 +37,7 @@ const Slider = ({ slides }) => {
           >
             {index === current && (
               <>
-              <img src={slide.Image} alt={`Slide ${index + 1}`} className="image" />4
+              <img src={slide.Image} alt={`Slide ${index + 1}`} className="image" />
                 <div className="image-overlay" >
                     <h1 className="heading" >{slide.heading}</h1>
                  </div>
